@@ -27,6 +27,7 @@ Fetching only required fields from API response
 Error handling and response validation
 
 Go-API-Integration/
+
 │
 ├── handler/        # HTTP handlers (Gin)
 ├── service/        # Business logic
