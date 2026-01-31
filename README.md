@@ -21,17 +21,16 @@ Features:
 6) Error handling and response validation
 
 Go-API-Integration/
-
-│
-├── handler/        # HTTP handlers (Gin)
-
-├── service/        # Business logic
-
-├── repository/     # API integration logic
-
-├── model/          # Request/Response models
-
-├── main.go         # Application entry point
+      
+      ├── handler/        # HTTP handlers (Gin)
+      
+      ├── service/        # Business logic
+      
+      ├── repository/     # API integration logic
+      
+      ├── model/          # Request/Response models
+      
+      ├── main.go         # Application entry point
 
 
 How It Works:
