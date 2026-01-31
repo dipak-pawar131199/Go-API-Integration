@@ -12,27 +12,25 @@ We integrate the public API
 and fetch user data into our Go application.
 
 
-Features
-
-External REST API integration
-
-Clean Repository Pattern
-
-HTTP client usage in Go
-
-JSON response binding into structs
-
-Fetching only required fields from API response
-
-Error handling and response validation
+Features:
+1) External REST API integration
+2) Clean Repository Pattern
+3) HTTP client usage in Go
+4) JSON response binding into structs
+5) Fetching only required fields from API response
+6) Error handling and response validation
 
 Go-API-Integration/
 
 │
 ├── handler/        # HTTP handlers (Gin)
+
 ├── service/        # Business logic
+
 ├── repository/     # API integration logic
+
 ├── model/          # Request/Response models
+
 ├── main.go         # Application entry point
 
 
